@@ -1,0 +1,39 @@
+{
+  "engineVersion": "5.3.9",
+  "compilerVersion": "5.3.9",
+  "template": {},
+  "target": {
+    "current": "android"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "promise"
+    }
+  ],
+  "eui": {
+    "exmlRoot": [
+      "resource/eui_skins"
+    ]
+  },
+  "vivo": {
+    "usePlugin": true
+  },
+  "targets": {
+    "android": {
+      "appname": "xxl",
+      "packagename": "com.cjh"
+    }
+  }
+}

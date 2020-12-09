@@ -1,0 +1,20 @@
+{
+    "tasks": [
+        {
+            "type": "egret",
+            "isBackground": true,
+            "problemMatcher": "$egret",
+            "label": "egret: build"
+        },
+        {
+            "type": "npm",
+            "script": "build",
+            "path": "scripts/plugins/",
+            "group": "build",
+            "problemMatcher": [],
+            "label": "npm: build - scripts/plugins",
+            "detail": "echo helloworld"
+        }
+    ],
+    "version": "0.2.0"
+}

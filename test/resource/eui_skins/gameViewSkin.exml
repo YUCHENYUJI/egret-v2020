@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="gameViewSkin"
+	 width="640"
+	height="1136" xmlns:e="http://ns.egret.com/eui">
+	<e:Image horizontalCenter="0" alpha="0.78" source="icon_jpg" bottom="0" visible="true"/>
+	<e:Rect id="Bg" width="100%" height="100%" fillColor="0x7C7777" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image source="game_title_png" y="247" horizontalCenter="0" visible="false"/>
+	<e:Image source="spikes_block_png" top="86" horizontalCenter="14.5"/>
+	<e:Image source="hud_bg_png" horizontalCenter="0" scale9Grid="213,43,214,44" top="0" height="100"/>
+	<e:Group right="0" top="5">
+		<e:Image id="Btnhome" source="home_btn_png" x="0" width="80" height="80" y="0"/>
+		<e:Image id="Btnpause" source="pause_btn_png" x="251" width="80" height="80" y="0"/>
+		<e:Image id="BtnReplay" source="replay_btn_png" x="428" width="80" height="80" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="RectContainer" height="800" bottom="0" x="320"/>
+	<e:Image id="BtnAddLevel" source="bonus_marker_png" x="538.354" y="184" anchorOffsetX="0" width="100" anchorOffsetY="0" height="100"/>
+	<e:Group x="86" y="5">
+		<e:Image source="bar2_fill_png" x="0" y="0" scale9Grid="30,17,30,16" width="231"/>
+		<e:Label id="t_score" textColor="0xFFFFFF" verticalCenter="0" text="0" left="18" size="26"/>
+	</e:Group>
+	<e:Label text="分值" y="14" textColor="0xFFE294" bold="true" left="18"/>
+	<e:Label text="加大难度按这个↘" x="281" y="173" textColor="0x000000" bold="true"/>
+	<e:Label id="hard_text" text="难度：0级" y="173" textColor="0x000000" bold="true" left="11"/>
+	<e:Label text="目标分数" y="62" bold="true" left="11" id="t_target_score" x="21" textColor="0xFFFFFF"/>
+	<e:Label id="Tips" text="bug了？别急，再点一下，靠近一点" y="322" textColor="0xFF7101" border="false" stroke="1" bold="true" horizontalCenter="0" alpha="0"/>
+	<e:Group id="TipGroup" horizontalCenter="0" verticalCenter="0" visible="false">
+		<e:Rect id="BgClose" height="1136" horizontalCenter="0" verticalCenter="0" fillColor="0xFCFFF6" width="640" ellipseWidth="10" ellipseHeight="10" strokeAlpha="0.3" fillAlpha="0.4"/>
+		<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Label id="Tips3" text="Stop" border="false" stroke="1" bold="true" alpha="1" x="0" visible="true" y="0" textColor="0xFF0000"/>
+			<e:layout>
+			<e:VerticalLayout horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

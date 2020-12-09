@@ -1,8 +1,8 @@
 # Test
 1、项目文件目录说明
- egret 工程目录-----test
- egret 安卓打包文件目录----- test_android
- egret APP安卓安装包 Star.apk
+a.工程目录-----test
+b.安卓打包文件目录----- test_android
+c.APP安卓安装包 Star.apk
 
 2、运行
 egret wing 或者vscode打开
